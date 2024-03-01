@@ -1,11 +1,5 @@
 html {
-	font-size: 60%;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-  border-color: transparent;
+	font-size: 100%;
 }
 
 body {
@@ -15,18 +9,52 @@ body {
 }
 
 #main {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-#og-website {
+.website-title{
+    text-align: center;
+    font-size: 2vw;
+    color: #2d3142;
+}
+
+#body-one {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.part-title {
+    text-align: center;
+    font-size: 2vw;
+    color: #2d3142;
+}
+
+.homepage {
     display: flex;
     justify-content: space-around;
     align-self: center;
-    max-width: 10vw;
     height: fit-content;
     overflow: hidden;
-  }
+    text-align: center;
+}
+
+#original {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: fit-content;
+    overflow: hidden;
+    align-self: center;
+    margin: auto;
+}
+
+.part-one-text {
+    text-align: center;
+    font-size: 1vw;
+    color: #2d3142;
+}
+
