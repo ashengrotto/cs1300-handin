@@ -6,6 +6,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #FFFDF4 !important;
+  overflow-x: hidden;
 }
 
 #main {
@@ -19,7 +20,7 @@ body {
 .website-title{
     text-align: center;
     font-size: 2vw;
-    color: #00008B;
+    color: #2F2D2D;
     text-decoration: underline;
 }
 
@@ -32,7 +33,7 @@ body {
 .part-title {
     text-align: center;
     font-size: 1.5vw;
-    color: #00008B;
+    color: #2F2D2D;
 }
 
 .homepage {
@@ -56,13 +57,14 @@ body {
 
 .part-one-text {
     text-align: center;
-    font-size: 1vw;
-    color: #00008B;
+    font-size: 1.1vw;
+    color: #2F2D2D;
+    padding: 1.5rem;
 }
 
 li {
     font-size: 1vw;
-    color: #00008B;
+    color: #2F2D2D;
 }
 
 #style {
