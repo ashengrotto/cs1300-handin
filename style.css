@@ -5,7 +5,7 @@ html {
 body {
   width: 100vw;
   height: 100vh;
-  background-color: #e8e8ff !important;
+  background-color: #FFFDF4 !important;
 }
 
 #main {
@@ -29,7 +29,7 @@ body {
 
 .part-title {
     text-align: center;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #2d3142;
 }
 
@@ -58,3 +58,17 @@ body {
     color: #2d3142;
 }
 
+li {
+    font-size: 1vw;
+    color: #2d3142;
+}
+
+#style {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    height: fit-content;
+    overflow: hidden;
+    align-self: center;
+    margin: auto;
+}
