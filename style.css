@@ -59,7 +59,8 @@ body {
     text-align: center;
     font-size: 1.1vw;
     color: #2F2D2D;
-    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
 }
 
 li {
