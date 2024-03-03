@@ -63,7 +63,7 @@ body {
 #centered-img {
     display: flex;
     justify-content: space-evenly;
-    width: 70%;
+    width: 50%;
     height: fit-content;
     overflow: hidden;
     margin: 1rem;
@@ -94,6 +94,7 @@ body {
     color: #2F2D2D;
     padding-left: 1rem;
     padding-right: 1.5rem;
+    line-height: 2rem;
 }
 
 li {
