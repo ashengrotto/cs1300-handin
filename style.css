@@ -24,7 +24,7 @@ body {
     text-decoration: underline;
 }
 
-#body-one {
+#body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
