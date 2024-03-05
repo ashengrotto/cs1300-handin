@@ -55,7 +55,7 @@ body {
 #original {
     display: flex;
     justify-content: space-evenly;
-    width: 70%;
+    width: 70vw;
     height: fit-content;
     overflow: hidden;
 }
@@ -63,7 +63,7 @@ body {
 #centered-img {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 50vw;
     height: fit-content;
     overflow: hidden;
     align-self: center;
