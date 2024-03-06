@@ -60,6 +60,14 @@ body {
     overflow: hidden;
 }
 
+#original-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+    height: fit-content;
+    overflow: hidden;
+}
+
 #centered-img {
     display: flex;
     justify-content: space-evenly;
@@ -73,7 +81,7 @@ body {
 #og-mobile {
     display: flex;
     justify-content: space-evenly;
-    width: 7%;
+    width: 15vw;
     height: fit-content;
     overflow: hidden;
     align-self: center;
