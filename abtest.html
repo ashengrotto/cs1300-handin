@@ -72,6 +72,15 @@
           </ul>
 
           <p class="mini-header">Statistical Tests</p>
+          <p class="part-one-text">Misclick rate</p>
+          <ul>
+            <li>I decided to use a chi-square test to calculate the difference in the misclick rate for both versions of the site (A and B). I chose this test because of the boolean nature of the data, as the misclick rate is represented by a boolean flag that is True if the user pushed a button external to the task, and False if not:
+              the chi-square test is ideal for categorical, non-negative indicators such as booleans, which applies to this test perfectly.
+            </li>
+            <li>The chi^2 value was 31.2426654718309. The p-value was 0.0000000227706159483532.</li>
+            <li>Based on the results, the difference between versions A and B with respect to the metric is statistically significant because p <= 0.05. As such, I have found evidence to reject the null hypothesis.</li>
+          </ul>
+
           <p class="part-one-text">Time on page</p>
           <ul>
             <li>I decided to use a one-tailed t test to calculate the difference in the amount of time users spent on both versions of the page. This is because of my previously-stated hypothesis, in which I predicted that version B of the site will provide a simpler, more streamlined experience to the user that will enable them
@@ -79,7 +88,18 @@
             <li>The average time user spent on version A of the site was 12860.4411764706. In contrast, the average time spent on version B was 7577.22580645161.</li>
             <li>The t-score was 2.46544388910355. The p-value (B > A) was 0.0090275028.</li>
             <li>Based on the results, the difference between versions A and B with respect to the metric is statistically significant because p <= 0.05. Furthermore, the average (mean) time for version A was around 12860 milliseconds, a roughly 5283 millisecond difference from the average 7577 milliseconds for version B. As a result of these
-            findings, I see evidence that users spend less time on the page for version B than version A.</li>
+            findings, I see evidence that users spend less time on the page for version B than version A. As such, I have found evidence to reject the null hypothesis.</li>
+          </ul>
+          </ul>
+
+          <p class="part-one-text">Time to first click</p>
+          <ul>
+            <li>I decided to use a one-tailed t test to calculate the difference in the amount of time users spent on the page before clicking. This is because of my previously-stated hypothesis, in which I predicted that version B of the site will provide a simpler, easier to understand experience to the user that will enable them
+              to spend less time staring at the page before clicking than would be the case for version A. As a result, I chose a one-tailed t test to determine if the time users spent on version B (experimental) before clicking is smaller than the baseline time spent on version A.</li>
+            <li>The average time user spent on version A of the site before clicking was 5542.94117647059. In contrast, the average time spent on version B before clicking was 3784.54838709677.</li>
+            <li>The t-score was 2.19786980185957. The p-value (B > A) was 0.01684421414.</li>
+            <li>Based on the results, the difference between versions A and B with respect to the metric is statistically significant because p <= 0.05. Furthermore, the average (mean) time for version A was around 5543 milliseconds, a roughly 1758 millisecond difference from the average 3785 milliseconds for version B. As a result of these
+            findings, I see evidence that users spend less time on the page before clicking for version B than version A.As such, I have found evidence to reject the null hypothesis.</li>
           </ul>
 
           <p class="mini-header">Summary Statistics</p>
