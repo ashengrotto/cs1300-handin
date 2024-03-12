@@ -22,6 +22,9 @@
           This project in particular involves conducting a simple A/B test on two different UI designs and analyzing the results; the overarching goal is to get familiar with the methodology of A/B testing 
           and learn how to prove, through statistics, whether a change to a web page results in a better user experience. Though not a perfect measure by any means, A/B testing can produce valuable statistical data
           by focusing on specific metrics for the purpose of measuring improvements in user experience -- namely, how efficiently and quickly a user can successfully complete a certain task on two variations of the same page.
+          <br><br>
+          In this specific project, two versions of a mock-up medical website were created and the user was tasked with making a specific appointment with a doctor at one of the given medical centers: specificaly, the user was instructed
+          to "Schedule an appointment with Adam Ng, MD at Morristown Medical Center on April 23, 2024." The differences in user experience between versions A and B were therefore analyzed in order to determine if version B served as an "improvement" to the original site.
         </p>
           <h2 class="part-title">Part 1: Data Collection</h2>
           <div id="og-imgs">
@@ -35,9 +38,18 @@
             <li>The text of the "Schedule Appointment" button was changed from white to black for ease of readability.</li>
             <li>The location text for each appointment was underlined.</li>
           </ul>
-          
+          <p class="part-one-text">I made these changes largely based on my own perceptions of what could be improved on the original site. Specifically, I felt that the "View Appointment" button was confusing because it looked exactly the same as the 
+            "Schedule Appointment" button and I reasoned that rather than have a separate button for viewing the appointment details, the user could just be shown the specific appointment information upon clicking the button to schedule but before confirming the appointment. 
+            Accordingly, I found the white button text against the blue background a little hard to read and, taking inspiration from the name of the user on the top bar of the site, changed the text color to black to hopefully increase its readability. I also noticed it was easy to overlook
+            the actual location of the appointment in trying to find the correct one for the task, so I underlined it in hopes of drawing the user's attention more easily. Lastly, I listed the appointments chronologically for ease of understanding and to avoid confusing the user.
+          <br><br>
+          With this new version of the website created, I could proceed with the first step of conducting A/B user testing by formulating my hypotheses for the results.
+          </p>
+
           <h3 class="part-title">Part 2: Analysis</h3>
           <p class="mini-header">Hypotheses</p>
+
+          <p class="part-one-text">With the belief that the small changes I made to the site constituted improvements, I formulated null and alternative hypotheses based on three specific metrics of both versions: misclick rate, time on page, and time to first click.</p>
           <p class="part-one-text">Misclick rate</p>
           <ul>
             <li>Null hypothesis: There will be no difference in the misclick rate between users using version A of the site and the misclick rate of users using version B.</li>
@@ -102,7 +114,25 @@
           </ul>
 
           <p class="mini-header">Summary Statistics</p>
-
+          <ul>
+            <li>I collected over 30 data points (31, specifically) for my version B user data. The provided data for site was contained 34 data points, so they were about the same size.</li>
+            <li>For the sake of analysis, I proceeded to use the built-in formulas on Excel to calculate the mean, median, and mode for the "time spent on page" metric in version A and B. My findings were as follows:</li>
+            <li>Values for version A: 
+              <ul>
+                <li>The median value for the total time spent on the page was 8526.5.</li>
+                <li>The mean value for the total time spent on the page was 12860.44.</li>
+                <li>There was no mode value for the total time spent on the page.</li>
+              </ul>
+              <li>Values for version B:</li>
+              <ul>
+                <li>The median value for the total time spent on the page was 6863.</li>
+                <li>The mean value for the total time spent on the page was 7577.226.</li>
+                <li>There was no mode value for the total time spent on the page.</li>
+              </ul>    
+              <li>Looking at the results, I feel confident in my prior assertion of rejecting the null hypothesis. On average, users spent less time on version B of the site than they did on version A. This lends evidence for me to believe that the 
+                changes I made to the site resulted in a quicker and easier user experience in terms of completing the assigned task.
+              </li>          
+          </ul>
         </div>
     </div>
 </body>
