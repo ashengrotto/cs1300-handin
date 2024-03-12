@@ -25,17 +25,59 @@
         </p>
           <h2 class="part-title">Part 1: Data Collection</h2>
           <div id="og-imgs">
-              <img id="original" src="./assets/updated-site.png" alt="The updated homepage of the lab website"/> 
+            <img id="original" src="./assets/original-lab-site.png" alt="The original homepage of the lab website"/> 
+            <img id="original" src="./assets/updated-lab-site.png" alt="The updated homepage of the lab website"/> 
           </div>
-                <p class="part-one-text">The updated (b version) of the homepage. Specific changes made were:</p>
+            <p class="part-one-text">The updated (b version) of the homepage is shown on the right. Specific changes made were:</p>
           <ul>
-            <li>The "View Appointment" button was removed from the site.</li>
+            <li>The "View Appointment" buttons were removed from the site, leaving only the "Schedule Appointment" option.</li>
             <li>The list of available appointments was reorganized so they were listed by date (specifically, the April 26th appointment was moved to the end of the list from the middle.)</li>
             <li>The text of the "Schedule Appointment" button was changed from white to black.</li>
             <li>The location text for each appointment was underlined.</li>
+          </ul>
           </div>
           
           <h3 class="part-title">Part 2: Analysis</h3>
+          <p class="mini-header">Hypotheses</p>
+          <p class="part-one-text">Misclick rate</p>
+          <ul>
+            <li>Null hypothesis: There will be no difference in the misclick rate between users using version A of the site and users that use version B.</li>
+            <li>Alternative hypothesis: The misclick rate of users using version B of the site will be smaller than the misclick rate of those using version A.</li>
+            <li>I believe this will be the case because version B of the site is more simplified than version A in that it contains less buttons to misclick, as well as 
+              the fact that version B emphasizes information on the page through text decorations like underlining, which version A does not. I believe these improvements 
+              will lead to a more streamlined process in navigating version B, and in turn, reduce the possibility of misclicking on irrelevant elements and faciliate a quicker experience
+              for the user to complete the task by clicking the correct button.</li>
+            <li>As a result, I believe I will be able to reject the null hypothesis with this reasoning.</li>
+          </ul>
+          <p class="part-one-text">Time on page</p>
+          <ul>
+            <li>Null hypothesis: There will be no difference in the time spent on the page between users using version A of the site and users that use version B.</li>
+            <li>Alternative hypothesis: The amount of time spent on the page for users using version B of the site will be less than the time spent by those using version A.</li>
+            <li>I believe this will be the case because version B of the site is more simplified than version A in that it contains less buttons to click, as well as because version B
+              of the site has the appointments organized by date (whereas version A does not.) By streamlining the site and making the information more clear, I believe these changes in site B will allow the
+              user to more quickly complete the assigned task, thus decreasing the time users need to spend on the site.
+            <li>As a result, I believe I will be able to reject the null hypothesis with this reasoning.</li>
+          </ul>
+          <p class="part-one-text">Time to first click</p>
+          <ul>
+            <li>I chose this parameter as my third measurement because I believe it encapsulates a common user experience: staring at a page you've just navigated to and trying to familiarize yourself
+              with the layout of the site -- without clicking anything yet. In this sense, I suspect that a site that is more well-designed will lead be more easily understandable to the user than a site that is not,
+              thus leading to a shorter time frame between opening the page and the user's first click on the improved page.
+            </li>
+            <li>Null hypothesis: There will be no difference between the time before the first click of users using version A of the site and the time before clicking for users that use version B.</li>
+            <li>Alternative hypothesis: The amount of time spent on the page before clicking for users using version B of the site will be less than the time spent by those using version A.</li>
+            <li>I believe this will be the case because version B of the site is more simplified than version A: on version B, the information is laid out in a way that is more immediately obvious and recognizable (in particular, appointments are organized in descending order by date and
+              clickable buttons are highlighted using darker text than the original site) which I believe will allow the user to more quickly grasp the functionality of the page and thus allow them to find the correct button to complete the task, thereby decreasing the time spent on the site before clicking.
+            <li>As a result, I believe I will be able to reject the null hypothesis with this reasoning.</li>
+          </ul>
+
+          <p class="mini-header">Statistical Tests</p>
+          <p class="part-one-text">Time on page</p>
+          <ul>
+            <li>I decided to use a one-tailed t test to calculate the difference in the amount of time users spent on both versions of the page. This is because of my previous prediction, in which I believe that version B of the site will provide a simpler, more streamlined experience to the user that will enable them
+              to complete the assigned task faster than would be the case for version A. As a result, I chose a one-tailed t test to determine if the time users spent on version B (experimental) is smaller on than the baseline time spent on version A.
+            </li>
+          </ul>
           </div>
     </div>
 </body>

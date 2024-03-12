@@ -20,7 +20,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 24px;
  }
   
 .topnav a:hover {
@@ -129,7 +129,7 @@ body {
 }
 
 li {
-    font-size: 1.1vw;
+    font-size: 1.0vw;
     color: #2F2D2D;
     margin: 1rem;
 }
