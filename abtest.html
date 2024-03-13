@@ -31,15 +31,16 @@
             <img id="original" src="./assets/original-lab-site.png" alt="The original homepage of the lab website"/> 
             <img id="original" src="./assets/updated-lab-site.png" alt="The updated homepage of the lab website"/> 
           </div>
-            <p class="part-one-text">The updated (b version) of the homepage is shown on the right. Specific changes made were:</p>
+            <p class="part-one-text">For testing purposes, the original site (version A) is shown on the left. The updated (version B) of the homepage is shown on the right. 
+              <br><br>Specific changes made to the site were:</p>
           <ul>
-            <li>The "View Appointment" buttons were removed from the site, leaving only the "Schedule Appointment" option.</li>
             <li>The list of available appointments was reorganized so they were listed by date (specifically, the April 26th appointment was moved to the end of the list from the middle.)</li>
+            <li>The "View Appointment" buttons were removed from the site, leaving only the "Schedule Appointment" options.</li>
             <li>The text of the "Schedule Appointment" button was changed from white to black for ease of readability.</li>
-            <li>The location text for each appointment was underlined.</li>
+            <li>The location text for each appointment was underlined for emphasis.</li>
           </ul>
           <p class="part-one-text">I made these changes largely based on my own perceptions of what could be improved on the original site. Specifically, I felt that the "View Appointment" button was confusing because it looked exactly the same as the 
-            "Schedule Appointment" button and I reasoned that rather than have a separate button for viewing the appointment details, the user could just be shown the specific appointment information upon clicking the button to schedule but before confirming the appointment. 
+            "Schedule Appointment" button, and I reasoned that rather than have a separate button for viewing the appointment details, the user could just be shown the specific appointment information upon clicking the button to schedule but before confirming the appointment. 
             Accordingly, I found the white button text against the blue background a little hard to read and, taking inspiration from the name of the user on the top bar of the site, changed the text color to black to hopefully increase its readability. I also noticed it was easy to overlook
             the actual location of the appointment in trying to find the correct one for the task, so I underlined it in hopes of drawing the user's attention more easily. Lastly, I listed the appointments chronologically for ease of understanding and to avoid confusing the user.
           <br><br>
@@ -55,17 +56,17 @@
           <ul>
             <li>Null hypothesis: There will be no difference in the misclick rate between users using version A of the site and the misclick rate of users using version B.</li>
             <li>Alternative hypothesis: The misclick rate of users using version B of the site will be smaller than the misclick rate of those using version A.</li>
-            <li>I believe this will be the case because version B of the site is more simplified than version A in that it contains less buttons to misclick, as well as 
+            <li>I arrived at this alternative hypothesis because I believe version B of the site is more simplified than version A in that it contains less buttons to misclick, as well as 
               the fact that version B emphasizes information on the page through text decorations like underlining, which version A does not. I believe these improvements 
               will lead to a more streamlined process in navigating version B, and in turn, reduce the possibility of misclicking on irrelevant elements and faciliate a quicker experience
-              for the user to complete the task by clicking the correct button.</li>
-            <li>As a result, I believe I will be able to reject the null hypothesis: if the above reasoning holds, users will be able to complete the task with less mis-clicks on version B of the site over version A.</li>
+              for the user to complete the task by clicking the correct button on the first try.</li>
+            <li>As a result, I believe I will be able to reject the null hypothesis: if the above reasoning holds, users will be able to complete the task with less misclicks on version B of the site over version A.</li>
           </ul>
           <p class="part-one-text">Time on page</p>
           <ul>
             <li>Null hypothesis: There will be no difference in the time spent on the page between users using version A of the site and the time users spent on the site on version B.</li>
             <li>Alternative hypothesis: The amount of time spent on the page for users using version B of the site will be less than the time spent by those using version A.</li>
-            <li>I believe this will be the case because version B of the site is more simplified than version A in that it contains less buttons to click, as well as because version B
+            <li>The reasoning for the alternative hypothesis is because I believe version B of the site is more simplified than version A in that it contains less buttons to click, as well as because version B
               of the site has the appointments organized by date (whereas version A does not.) By streamlining the site and making the information more clear, I believe these changes in site B will allow the
               user to more quickly complete the assigned task, thus decreasing the time users need to spend on the site.
             <li>As a result, I believe I will be able to reject the null hypothesis: if the above reasoning holds, users will be able to complete the task in less time on version B of the site over version A.</li>
@@ -73,18 +74,18 @@
           <p class="part-one-text">Time to first click</p>
           <ul>
             <li>I chose this parameter as my third measurement because I believe it encapsulates a common user experience: staring at a page you've just navigated to and trying to familiarize yourself
-              with the layout of the site before you make yout first click. In this sense, I suspect that a site that is more well-designed will be more quickly understandable to the user than a site that is not as easy to grasp,
-              thus leading to a shorter time frame between opening the page and the user's first click on the improved page.
+              with the layout of the site before you make your first click. In this sense, I suspect that a more well-designed site will be more quickly understandable to the user than a site that contains extraneous or confusing elements,
+              thus the changes I made to version B will result in a shorter time frame between opening the page and the user's first click on the improved page.
             </li>
             <li>Null hypothesis: There will be no difference between the time before the first click of users using version A of the site and the time before clicking for users that use version B.</li>
-            <li>Alternative hypothesis: The amount of time spent on the page before clicking for users using version B of the site will be less than the time spent by those using version A.</li>
+            <li>Alternative hypothesis: The amount of time spent on the page before clicking for users of version B of the site will be less than the time spent by those using version A.</li>
             <li>I believe this will be the case because version B of the site is more simplified than version A. On version B, the information is laid out in a way that is more immediately obvious and recognizable (in particular, appointments are organized in descending order by date and
               clickable buttons are highlighted using darker text than the original site) which I believe will allow the user to more quickly grasp the functionality of the page and thus allow them to find the correct button to complete the task, thereby decreasing the time spent on the site before clicking.
             <li>As a result, I believe I will be able to reject the null hypothesis: if the above reasoning holds, users will be able to spend less time before clicking on version B of the site over version A.</li>
           </ul>
 
           <p class="mini-header">Statistical Tests and Results</p>
-          <p class="part-one-text">With these hypothesis in mind, I set out to calculate each of the metric's statistics wtih a provided calculator. I ran the tests as follows:</p>
+          <p class="part-one-text">With these hypothesis in mind, I set out to calculate each of the metric's statistics with a provided statistical calculator. I ran tests for each metric as follows:</p>
           <p class="part-one-text">Misclick rate</p>
           <ul>
             <li>I decided to use a chi-square test to calculate the difference in the misclick rate for both versions of the site (A and B). I chose this test because of the boolean nature of the data, as the misclick rate is represented by a boolean flag that is True if the user pushed a button external to the task, and False if not.
@@ -101,11 +102,11 @@
           <ul>
             <li>I decided to use a one-tailed t test to calculate the difference in the amount of time users spent on both versions of the page. This is because of my previously-stated hypothesis, in which I predicted that version B of the site will provide a simpler, more streamlined experience to the user that will enable them
               to complete the assigned task faster than would be the case for version A. As a result, I chose a one-tailed t test to determine if the time users spent on version B (experimental) is smaller than the baseline time spent on version A.</li>
-            <li>The average time user spent on version A of the site was 12860.4411764706. In contrast, the average time spent on version B was 7577.22580645161.</li>
+            <li>The average time users spent on version A of the site was 12860.4411764706. In contrast, the average time spent on version B was 7577.22580645161.</li>
             <li>The t-score was 2.46544388910355. The p-value (B > A) was 0.0090275028.</li>
             <li>Based on the results, the difference between versions A and B with respect to the metric is statistically significant because p <= 0.05. Furthermore, the average (mean) time for version A was around 12860 milliseconds, a roughly 5283 millisecond difference from the average 7577 milliseconds for version B. As a result of these
             findings, I see evidence that users spend less time on the page for version B than version A. As such, I have found evidence to reject the null hypothesis.</li>
-            <li>In other words, the evidence indicates it is likely version B of the site is an improvement over version A. Analysis of the data shows that there is very likely a true difference in that users of version B 
+            <li>In other words, the evidence indicates it is likely version B of the site is an improvement over version A. The data shows there is very likely a true difference in that users of version B 
               showed significant improvement in spending less time on the site before successfully completing the task. I think this is the difference because version B of the site is made more easily understandable through improving text readability and organizing information, thus enabling users to complete the task in less time.</li>
           </ul>
 
@@ -117,12 +118,13 @@
             <li>The t-score was 2.19786980185957. The p-value (B > A) was 0.01684421414.</li>
             <li>Based on the results, the difference between versions A and B with respect to the metric is statistically significant because p <= 0.05. Furthermore, the average (mean) time for version A was around 5543 milliseconds, a roughly 1758 millisecond difference from the average 3785 milliseconds for version B. As a result of these
             findings, I see evidence that users spend less time on the page before clicking for version B than version A. As such, I have found evidence to reject the null hypothesis.</li>
-            <li>The evidence indicates version B of the site is likely an improvement over version A. There is very likely a true difference in that users of version B showed spent less time on the site before making their first click towards completing the task. I think this is the difference because version B of the site is made more easily understandable through improving text readability and removing extraneous elements, thus enabling users to grasp the functionality of the website at first glance in less time.</li>
+            <li>The evidence indicates version B of the site is likely an improvement over version A. There is very likely a true difference in that users of version B showed spent less time on the site before making their first click towards completing the task. I think this is the difference because version B of the site is made more easily understandable through improving text readability and removing extraneous elements, thus enabling users to grasp the functionality of the website in less time 
+              than was required for site A: users of site B were thus able to spend less time trying to figure out the page's functionality before clicking.</li>
           </ul>
 
           <p class="mini-header">Summary Statistics</p>
-          <p class="part-one-text"> I collected over 30 data points (31, specifically) for my version B user data. The provided data for site was contained 34 data points, so they were about the same size.</li>
-            For the sake of analysis, I proceeded to use the built-in formulas on Excel to calculate the mean, median, and mode for the "time spent on page" metric in version A and B. My findings were as follows:
+          <p class="part-one-text"> I collected over 30 data points (31, specifically) for my version B user data. The provided data for site was contained 34 data points, so they were about the same size. In the future, I believe expanding the size of the dataset may yield more accurate results.
+            <br><br>For the sake of analysis, I proceeded to use the built-in formulas on Excel to calculate the mean, median, and mode for the "time spent on page" metric in version A and B. My findings were:
           </p>
 
           <p class="part-one-text">Summary statistics for version A: </p>
@@ -138,9 +140,9 @@
               <li>There was no mode value.</li>
            </ul>  
               
-          <p class="part-one-text">Looking at the results, I feel confident in my prior assertion of rejecting the null hypothesis. On average, users spent less time on version B of the site than they did on version A. This lends evidence for me to believe that the 
+          <p class="part-one-text">Looking at the results, I feel confident in my prior assertion of rejecting the null hypothesis. On average, users spent less time on version B of the site than they did on version A. This provides evidence for me to believe that the 
             changes I made to the site resulted in a quicker and easier user experience in terms of completing the assigned task. This leads me to the qualitative conclusion that offering the user less options that look very similar will make for a less 
-            confusing experience and a quicker process of completing tasks. This experiment also reminds me of the importance in distinguishing text and buttons from the background through the use of color and decorations, such as by underlining pertinent text.
+            confusing experience and a quicker process of completing tasks. This experiment also reminds me of the importance in distinguishing text and buttons from the background through the use of color and decorations, such as by underlining pertinent text and ensuring good contrast between labels and the background.
             <br><br>
             Overall, this project was a great first look into the world of UX testing, specifically of the A/B variety, and I feel I learned a lot about the process.
           </p>  

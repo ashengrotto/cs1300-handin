@@ -121,7 +121,7 @@ body {
 
 .part-one-text {
     text-align: center;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     color: #2F2D2D;
     padding-left: 1rem;
     padding-right: 1.5rem;
@@ -129,7 +129,7 @@ body {
 }
 
 li {
-    font-size: 1.0vw;
+    font-size: 1.1vw;
     color: #2F2D2D;
     margin: 1rem;
 }
